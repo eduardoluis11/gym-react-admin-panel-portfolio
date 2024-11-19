@@ -100,12 +100,13 @@ const getSections = (t) => [
         icon: <PaperAirplaneIcon fontSize="small" />
       },
 
-        // Esto es un enlace a la funcionalidad de enviar Campañas de Email de Marketing a través de Mailrelay.
-      {
-        title: t('Campañas de Email'),
-        path: '/email-campaigns/',
-        icon: <MailIcon fontSize="small" />
-      },
+      // Esto es un enlace a la funcionalidad de enviar Campañas de Email de Marketing a través de Mailrelay.
+      // I HAD TO REMOVE IT since I will no longer use the email-campaigns page.
+      // {
+      //   title: t('Campañas de Email'),
+      //   path: '/email-campaigns/',
+      //   icon: <MailIcon fontSize="small" />
+      // },
       {
         title: t('Registro de accesos'),
         path: '/access',

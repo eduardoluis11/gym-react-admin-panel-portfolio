@@ -16,12 +16,15 @@ out
 # misc
 .DS_Store
 .eslintcache
+
+# This will hide the .env files
 /.env_para_windows
 /.env.local
 /.env.development.local
 /.env.test.local
 /.env.production.local
 /.env_para_windows
+/.env-vercel-ACTIVATE-LATER
 
 # Esto mete los .env en el gitignore
 /.env.example
