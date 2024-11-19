@@ -196,14 +196,16 @@ export const AccessListTable = (props) => {
                   <TableCell align="right">
 
                     {/* Icono del Sobre / Carta para enviar Emails. Te redirige al enlace  */}
+                    {/* I WILL REMOVE THIS since I will no longer let the users send emails */}
                     {/* /clients/client_id/send-email */}
                     {/*<IconButton component="a" href={`mailto:${customer.email}`}>*/}
-                    <NextLink href={`/clients/${customer.client.id}/send-email`}
-                    passHref>
-                      <IconButton component="a" href={`#`}>
-                        <MailOutlineIcon fontSize="small" />
-                      </IconButton>
-                    </NextLink>
+                    {/*<NextLink href={`/clients/${customer.client.id}/send-email`}*/}
+                    {/*passHref>*/}
+                    {/*  <IconButton component="a" href={`#`}>*/}
+                    {/*    <MailOutlineIcon fontSize="small" />*/}
+                    {/*  </IconButton>*/}
+                    {/*</NextLink>*/}
+
 
                     {/* Icono del Lápiz para Editar a un cliente */}
                     <NextLink href={`/clients/${customer.client.id}`} 
